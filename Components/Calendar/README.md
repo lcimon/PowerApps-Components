@@ -7,6 +7,7 @@ Main features are the following:
 - Disable dates
 - Show only working days
 - Specify the first day of week
+- Manage translations
 
 ## Examples
 
@@ -34,11 +35,12 @@ Below are the available properties to customize this component:
 |Header Fill | Color | Set background color of header | RGBA(48,102,190,1) |
 |Calendar Fill | Color | Set background color of calendar | RGBA(255, 255, 255, 1) |
 |Font | Color | Set the font | Font.'Open Sans' |
+|Translations | Table | Set list of translated texts | |
 
 ##Behavior
 | Name  | Description | Parameters |
 |---|---|---|
-|OnSelect| Raised when a date is selected | SelectedDate - The selected date |
+|OnSelect| Raised when a date is selected | SelectedDate - The date selected by user<br/>HasEvent - Flag to indicate if the date has an event |
 
 ### Output
 | Name | Type | Description |
