@@ -1,15 +1,23 @@
 # Calendar Component
-This components allows to display a fully customizable calendar in Power Apps Canvas.
+This component allows to display a fully customizable calendar in Power Apps Canvas.
 Main features are the following:
-- Allow or not the multi-selection
+- Allow or not selection of multiple dates
 - Define the first and last date selectable
 - Highlight days with events with customizable colors
 - Disable dates
-- Show only working days
+- Show or hide weekends
 - Specify the first day of week
 - Manage translations
+- Responsive layout (including font size)
 
 ## Examples
+![image](https://user-images.githubusercontent.com/22662809/145859063-0247b53c-9a9a-4a30-adb8-c6bedfe05761.png)
+![image](https://user-images.githubusercontent.com/22662809/145859287-5e1f42ad-8b24-4c2a-94f0-bc4290e7eb64.png)
+![image](https://user-images.githubusercontent.com/22662809/145859351-091dc965-fa48-4aed-a103-aad1d63cef7b.png)
+![image](https://user-images.githubusercontent.com/22662809/145859407-6a27f406-0124-4366-b979-3b4dcbc83249.png)
+
+
+
 
 ## Properties
 Below are the available properties to customize this component:
@@ -35,7 +43,7 @@ Below are the available properties to customize this component:
 |Header Fill | Color | Set background color of header | RGBA(48,102,190,1) |
 |Calendar Fill | Color | Set background color of calendar | RGBA(255, 255, 255, 1) |
 |Font | Color | Set the font | Font.'Open Sans' |
-|Translations | Table | Set list of translated texts | |
+|Translations | Table | Set list of translated texts | Table({Key: "lblMonday", LocalizedValue: "Mon"}, ...) |
 
 ##Behavior
 | Name  | Description | Parameters |
