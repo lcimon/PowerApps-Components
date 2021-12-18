@@ -11,7 +11,8 @@ Main features are the following:
 - Responsive layout (including font size)
 
 ## Examples
-![image](https://user-images.githubusercontent.com/22662809/146657149-c029a5b0-0b74-4233-9810-292235c76a6f.png)
+![image](Assets/Calendar-Preview.png)
+
 
 ## Properties
 Below are the available properties to customize this component:
@@ -39,7 +40,7 @@ Below are the available properties to customize this component:
 |Font | Color | Set the font | Font.'Open Sans' |
 |Translations | Table | Set list of translated texts | Table({Key: "lblMonday", LocalizedValue: "Mon"}, ...) |
 
-##Behavior
+### Behavior
 | Name  | Description | Parameters |
 |---|---|---|
 |OnSelect| Raised when a date is selected | SelectedDate - The date selected by user<br/>HasEvent - Flag to indicate if the date has an event |
