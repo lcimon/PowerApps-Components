@@ -13,7 +13,6 @@ Main features are the following:
 ## Examples
 ![image](Assets/Calendar-Preview.png)
 
-
 ## Properties
 Below are the available properties to customize this component:
 
@@ -51,3 +50,11 @@ Below are the available properties to customize this component:
 |Selected Date | DateTime | Return the selected date |
 |Selected Dates | Table | Return the selected dates |
 |Component ID | Text | Instance component ID |
+
+## Note
+This component get inspired by other calendars made by:
+* [April Dunnam](https://twitter.com/aprildunnam)
+* [Théophile CHIN-IN](https://twitter.com/tchinnin)
+* [Microsoft](https://powerapps.microsoft.com/fr-fr/blog/powerapps-ten-reusable-components/)
+
+Thanks to them!
