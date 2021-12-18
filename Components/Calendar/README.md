@@ -1,7 +1,7 @@
 # Calendar Component
 This component allows to display a fully customizable calendar in Power Apps Canvas.
 Main features are the following:
-- Allow or not selection of multiple dates
+- Allow or disable multiple dates selection
 - Define the first and last date selectable
 - Highlight days with events with customizable colors
 - Disable dates
@@ -11,13 +11,7 @@ Main features are the following:
 - Responsive layout (including font size)
 
 ## Examples
-![image](https://user-images.githubusercontent.com/22662809/145859063-0247b53c-9a9a-4a30-adb8-c6bedfe05761.png)
-![image](https://user-images.githubusercontent.com/22662809/145859287-5e1f42ad-8b24-4c2a-94f0-bc4290e7eb64.png)
-![image](https://user-images.githubusercontent.com/22662809/145859351-091dc965-fa48-4aed-a103-aad1d63cef7b.png)
-![image](https://user-images.githubusercontent.com/22662809/145859407-6a27f406-0124-4366-b979-3b4dcbc83249.png)
-
-
-
+![image](https://user-images.githubusercontent.com/22662809/146657149-c029a5b0-0b74-4233-9810-292235c76a6f.png)
 
 ## Properties
 Below are the available properties to customize this component:
